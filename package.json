@@ -1,0 +1,29 @@
+{
+  "name": "sporkd",
+  "author": "Troy Rhinehart <troy.rhinehart@gmail.com>",
+  "version": "0.0.1",
+  "description": "A forking utility package with REPL, EventEmitter, and i18n support",
+  "keywords": [
+    "cluster",
+    "fork",
+    "master",
+    "worker",
+    "repl"
+  ],
+  "demos": ["/example/index.js"],
+  "scripts": {
+    "demo": "node ./example/index.js"
+  },
+  "private": true,
+  "dependencies": {
+    "async": "^0.9.0",
+    "i18n": "^0.5.0",
+    "lodash": "^2.4.1"
+  },
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
